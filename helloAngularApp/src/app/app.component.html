@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<app-problem1></app-problem1>
+
+<h2>Here are the problems created so far: </h2>
+<ul>
+  <li *ngFor="let problem of problemsList">
+    Name: {{problem.name}}
+  </li>
+</ul>
